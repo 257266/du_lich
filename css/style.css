@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    box-sizing: border-box
+}
+
+.img-100 {
+    width: 100%;
+    height: auto
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto
+}
+
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 16px;
+    color: #666666;
+    margin: 0
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #F5A938
+}
+
+.logo {
+    float: left
+}
+
+.menu {
+    float: right;
+    padding-top: 20px
+}
+
+    .menu a {
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white
+    }
+
+        .menu a:hover {
+            color: red
+        }
+
+main {
+    width: 100%;
+    min-height: 500px;
+    clear: both
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background-color: #F5A938;
+    color: white;
+    text-align: center;
+    line-height: 50px
+}
+
+.w-25 {
+    width: 25%;
+    padding: 15px;
+    float: left
+}
+
+.vien {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px
+}
+
+.bo-goc {
+    border-radius: 10px
+}
+
+.tour {
+    color: blue;
+    font-size: 20px
+}
+
+.gia {
+    color: red;
+    font-weight: 700
+}
+
+.w-40 {
+    width: 40%;
+    min-height: 300px;
+    padding: 15px;
+    float: left
+}
+
+.w-60 {
+    width: 60%;
+    min-height: 300px;
+    padding: 15px;
+    float: left
+}
+
+.text-xanh {
+    color: blue;
+}
+
+.vien-xam {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px
+}
+
+.form-control {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.nut-gui {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #FB7C7E;
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+    .nut-gui:hover {
+        background-color: #DC1D20
+    }
+
+.nut-xoa {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #EFE77C;
+    color: black;
+    border: none;
+    cursor: pointer
+}
+
+    .nut-xoa:hover {
+        background-color: #EBCE0F;
+        color: white
+    }
